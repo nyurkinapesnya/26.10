@@ -1,0 +1,4 @@
+.vscode/
+note_modules
+dist
+node_modules
