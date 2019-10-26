@@ -1,0 +1,178 @@
+.footer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 20px;
+        &__title {
+        margin-bottom: 0;
+        }
+        &__separator {
+        margin: 0;
+        padding: 0;
+        }
+        &__menu {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 300x;
+        }
+        &__item {
+        margin-right: 30px;
+        } 
+        &__link {
+        text-decoration: none;
+        }
+        &__right--blue {
+        color: #00D2FC;
+        }
+    }
+
+    .contact {
+
+        background-color: white;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        &__title {
+            text-align: center;
+            font-size: 30px;
+            padding-top: 20px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    
+        &__text {
+            text-align: center;
+            margin-bottom: 15px;
+            font-size: 20px;
+            width: 500px;
+            color: grey;
+        }
+    
+        &__content {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+            &__form {
+                margin: 40px;
+            }
+    
+            .form{
+            
+            &__name {
+                background-color: white;
+                width: 600px;
+                font-size: 20px;
+                border: none;
+                padding-top: 10px;
+                padding-left: 5px;  
+                margin: 10px;  
+                border: 2px solid black;    
+            }
+    
+            &__email {
+                background-color: white;
+                width: 600px;
+                font-size: 20px;
+                border: none;
+                padding-top: 10px; 
+                padding-left: 5px; 
+                margin: 10px;
+                border: 2px solid black; 
+            }
+        
+            &__message {
+                background-color: white;
+                width: 600px;
+                height: 200px;
+                font-size: 20px;
+                border: none;
+                padding-left: 5px; 
+                margin: 10px;
+                text-align: top;
+                border: 2px solid black; 
+            }
+            }
+    
+            &__author {
+    
+                width: 170px;
+
+                .author__address {
+    
+                    margin-bottom: 20px;
+                        
+                    &--top {
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        font-size: 20px;
+                        margin-bottom: 20px;
+                    }
+    
+                    &--low {
+                        font-size: 20px;
+                    }
+                }
+    
+                .author__phone {
+
+                    margin-bottom: 20px;
+        
+                    &--top {
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        font-size: 20px;
+                        margin-bottom: 20px;
+                    }
+    
+                    &--low {
+                        font-size: 20px;
+                    }
+                }
+            }
+    }
+
+    .subscribe {
+
+        background-color: black;
+        color: white;
+        padding: 20px;
+        height: 100px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+                
+        &__text {
+            width: 500px;
+            font-size: 18px;
+        }
+    
+        &__email{
+            width: 300px;
+            height: 25px;
+            border: 2px solid white;
+            background-color: transparent;
+        }
+    
+        &__button {
+            width: 100px;
+            height: 30px;
+            background-color: #00D2FC;
+            color: white;
+            text-transform: uppercase;
+            border: 2px solid white;
+            margin-right: 20px;
+        }
+    }
